@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
   if(count($array_errors)==0){
     $servername = "localhost";
     $username1 = "root";
-    $password1 = "";
+    $password1 = "machine1";
     $dbname = "contacts";
     $conn = new mysqli($servername, $username1, $password1, $dbname);
     if ($conn->connect_error){
